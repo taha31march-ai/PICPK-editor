@@ -1,0 +1,14 @@
+{
+  "name": "picpk-editor",
+  "version": "1.0.0",
+  "description": "AI Photo Editor Chatbot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.0"
+  }
+}
