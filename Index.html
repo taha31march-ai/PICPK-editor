@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICPK - AI Photo Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="header">
+            <h1 class="neon-text">PICPK</h1>
+            <p class="subtitle">Photo Enhancing Chatbot</p>
+        </div>
+        
+        <div class="chat-box" id="chat-box">
+            <div class="message bot-message">
+                Hello! I am PICPK. Upload an image below to get started!
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="file" id="file-input" accept="image/*" hidden>
+            <label for="file-input" class="upload-btn">📎</label>
+            <input type="text" id="text-input" placeholder="Type a command (e.g., 'grayscale')...">
+            <button id="send-btn">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
